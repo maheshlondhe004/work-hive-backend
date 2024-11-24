@@ -1,0 +1,48 @@
+# Node modules
+/node_modules/
+**/node_modules/
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Debug files
+/.idea/
+/.vscode/
+
+# npm packages
+/package-lock.json
+/package.json
+
+# TypeScript build files
+/dist/
+/build/
+
+# Environment variables
+.env
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+/.vscode
+/.idea
+
+# Coverage directory
+/coverage/
+
+# Docker & Kubernetes files
+.docker/
+docker-compose.yml
+docker-compose.override.yml
+
+# Misc
+*.swp
+*.swo
+
+# Yarn & NPM cache
+.yarn/
+.npm/
